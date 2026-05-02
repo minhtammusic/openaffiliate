@@ -36,7 +36,6 @@ import { programs, getProgram, parseCommissionRate, commissionLabel, affiliateSc
 import { TrackView, TrackLink } from "./track-view";
 
 export const revalidate = 86400;
-export const dynamicParams = true;
 
 export function generateStaticParams() {
   const top = [...programs]
